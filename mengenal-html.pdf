@@ -1,0 +1,12 @@
+--HTML (HyperText Markup Language) adalah bahasa markah (markup language) yang digunakan untuk membuat halaman web. HTML terdiri dari serangkaian tag (tag) yang digunakan untuk menentukan struktur, tampilan, dan fungsi dari halaman web.
+
+Dalam HTML, sebuah tag digunakan untuk membuat sebuah elemen.
+Nama elemen HTML adalah nama yang muncul di awal, tag awal elemen dan di akhir tag  elemen (jika elemen memiliki tag akhir). Sebagai contoh, p pada tag awal <p> dan tag akhir </p> adalah nama elemen paragraf HTML. Perhatikan bahwa nama elemen pada tag akhir diawali dengan karakter garis miring: <p>, dan bahwa untuk elemen kosong, tag akhir tidak diwajibkan atau diizinkan.
+
+--Elemen
+Elemen adalah bagian dari halaman web. Dalam XML dan HTML, sebuah elemen dapat berisi item data atau sepotong teks atau gambar, atau mungkin tidak sama sekali. Sebuah elemen umumnya mencakup tag pembuka dengan beberapa atribut, konten teks yang diapit, dan tag penutup.
+Elemen dan tag bukanlah hal yang sama. Tag memulai atau mengakhiri elemen dalam kode sumber, sedangkan elemen adalah bagian dari DOM, model dokumen untuk menampilkan halaman di browser.
+
+elemen/ele·men/ /élemén/ n 1 zat sederhana (tunggal) yang dianggap sebagai komposisi bahan alam semesta (seperti udara, tanah, air, api); 2 bagian (yang penting, yang dibutuhkan) dari keseluruhan yang lebih besar; unsur
+
+
