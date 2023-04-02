@@ -1,0 +1,47 @@
+b-- <header>
+Elemen HTML <header> mewakili konten pengantar, biasanya berupa kelompok pengantar atau alat bantu navigasi. Elemen ini mungkin berisi beberapa elemen judul, tetapi juga logo, formulir pencarian, nama penulis, dan elemen lainnya.
+
+-- <nav>: Elemen Bagian Navigasi
+Elemen HTML <nav> mewakili bagian halaman yang bertujuan untuk menyediakan tautan navigasi, baik di dalam dokumen saat ini atau ke dokumen lain. Contoh umum bagian navigasi adalah menu, daftar isi, dan indeks.
+
+-- <main>
+Elemen HTML <main> mewakili konten dominan dari <body> dokumen. Area konten utama terdiri dari konten yang secara langsung terkait dengan atau memperluas topik utama dokumen, atau fungsionalitas utama aplikasi.
+
+-- <section>: Elemen Bagian Generik
+Elemen HTML <section> mewakili bagian generik yang berdiri sendiri dari sebuah dokumen, yang tidak memiliki elemen semantik yang lebih spesifik untuk mewakilinya. Bagian harus selalu memiliki judul, dengan sedikit pengecualian.
+
+<form>: Elemen Formulir
+Elemen HTML <form> mewakili bagian dokumen yang berisi kontrol interaktif untuk mengirimkan informasi.
+
+<footer>
+Elemen HTML <footer> merupakan footer untuk konten pemenggalan bagian terdekat atau elemen akar pemenggalan. <footer> biasanya berisi informasi tentang penulis bagian, data hak cipta, atau tautan ke dokumen terkait.
+
+-- <article>: Elemen Isi Artikel
+Elemen HTML <article> mewakili komposisi mandiri dalam dokumen, halaman, aplikasi, atau situs, yang dimaksudkan untuk didistribusikan secara independen atau dapat digunakan kembali (misalnya, dalam sindikasi). Contohnya meliputi: posting forum, artikel majalah atau surat kabar, atau entri blog, kartu produk, komentar yang dikirimkan pengguna, widget atau gadget interaktif, atau item konten independen lainnya.
+
+-- <aside>: Elemen Aside
+Elemen HTML <aside> mewakili bagian dari dokumen yang isinya hanya terkait secara tidak langsung dengan konten utama dokumen. Aside sering kali disajikan sebagai sidebar atau kotak panggilan.
+
+-- <details>: Elemen pengungkapan Detail
+Elemen HTML <details> membuat widget pengungkapan yang informasinya hanya dapat dilihat ketika widget tersebut diaktifkan ke status "terbuka". Ringkasan atau label harus disediakan dengan menggunakan elemen <summary>.
+<figcaption>: Elemen Keterangan Gambar
+
+-- Elemen HTML <figcaption>
+ mewakili keterangan atau legenda yang menjelaskan konten lainnya dari elemen <figure> induknya.
+
+-- <figure>: Gambar dengan elemen Keterangan Opsional
+Elemen HTML <figure> mewakili konten mandiri, mungkin dengan keterangan opsional, yang ditentukan menggunakan elemen <figcaption>. Gambar, keterangan, dan isinya direferensikan sebagai satu kesatuan.
+
+-- <mark>: Elemen Teks Tandai
+Elemen HTML <mark> mewakili teks yang ditandai atau dijelaskan untuk tujuan referensi atau notasi karena relevansi bagian yang ditandai dalam konteks yang menyertainya.
+
+-- <summary>: Elemen summary Pengungkapan
+Elemen HTML <summary> menentukan summary, keterangan, atau legenda untuk kotak pengungkapan elemen <details>. Mengklik elemen <summary> akan mengalihkan status elemen <details> induk menjadi terbuka dan tertutup.
+
+-- <time>: Elemen Waktu (Tanggal).
+Elemen HTML <time> mewakili periode waktu tertentu. Ini mungkin menyertakan atribut datetime untuk menerjemahkan tanggal ke dalam format yang dapat dibaca mesin, memungkinkan hasil mesin telusur yang lebih baik atau fitur khusus seperti pengingat.
+Ini mungkin mewakili salah satu dari yang berikut:
+    Waktu dalam hitungan 24 jam.
+    Tanggal yang tepat dalam kalender Gregorian (dengan informasi waktu dan zona waktu opsional).
+    Durasi waktu yang valid.
+

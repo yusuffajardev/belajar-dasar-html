@@ -1,0 +1,18 @@
+semantik/se·man·tik/ /sémantik/ n Ling 1 ilmu tentang makna kata dan kalimat;
+-- Semantik
+Dalam pemrograman, Semantik mengacu pada makna dari sebuah kode - misalnya "apa dampak dari menjalankan baris JavaScript tersebut?", atau "apa tujuan atau peran dari elemen HTML tersebut" (bukan "seperti apa tampilannya?".)
+
+-- Semantik dalam HTML
+Dalam HTML, misalnya, elemen h1 adalah elemen semantik, yang memberikan teks yang dibungkusnya dengan peran (atau makna) "judul tingkat atas di 
+halaman Anda".
+
+#Semantik Elemen
+Apa yang dimaksud dengan Elemen Semantik? Elemen semantik dengan jelas menjelaskan maknanya kepada browser dan pengembang
+
+-- Semantik di CSS
+Di CSS, pertimbangkan menata daftar dengan elemen li yang mewakili berbagai jenis buah. Apakah Anda tahu bagian DOM mana yang dipilih dengan div > ul > li, atau .fruits__item?
+
+-- Semantik dalam JavaScript
+Dalam JavaScript, pertimbangkan fungsi yang mengambil parameter string, dan mengembalikan elemen <li> dengan string tersebut sebagai textContent-nya. Apakah Anda perlu melihat kode untuk memahami apa yang dilakukan fungsi jika disebut build('Peach'), atau createLiWithContent('Peach')?
+
+
