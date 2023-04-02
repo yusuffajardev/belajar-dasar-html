@@ -49,24 +49,39 @@
         </tbody>
       </table>
       <h3>Daftar Jumlah Penduduk Terbanyak</h3>
-      <table>
+      <table border="1" cellspacing="0" cellpadding="10">
         <thead>
+          <!-- 
+                    <thead>: Elemen Kepala Tabel
+            Elemen HTML <thead> mendefinisikan satu set baris yang mendefinisikan kepala kolom tabel.
+             -->
           <tr>
             <th>Country</th>
             <th>Capital</th>
             <th>Population</th>
           </tr>
         </thead>
-        <tr>
-          <td>China</td>
-          <td>Beijing</td>
-          <td>1,412,600,000</td>
-        </tr>
-        <tr>
-          <td>India</td>
-          <td>New Delhi</td>
-          <td>1,373,761,000</td>
-        </tr>
+        <tbody>
+          <!-- Elemen HTML <tbody> mengenkapsulasi sekumpulan baris tabel (elemen <tr>), yang mengindikasikan bahwa elemen-elemen tersebut merupakan bagian tubuh tabel (<table>). -->
+          <tr>
+            <td>China</td>
+            <td>Beijing</td>
+            <td>1,412,600,000</td>
+          </tr>
+          <tr>
+            <td>India</td>
+            <td>New Delhi</td>
+            <td>1,373,761,000</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <!-- Elemen HTML <tfoot> mendefinisikan sekumpulan baris yang meringkas kolom-kolom tabel. -->
+          <tr>
+            <th>Country</th>
+            <th>Capital</th>
+            <th>Population</th>
+          </tr>
+        </tfoot>
       </table>
     </main>
   </body>
