@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tag table</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h2>Belajar Table</h2>
+      </section>
+      <!-- Elemen HTML <tabel> merepresentasikan data tabular - yaitu informasi yang disajikan dalam tabel dua dimensi yang terdiri dari baris dan kolom sel yang berisi data. -->
+      <!-- 
+            tabel/ta·bel/ /tabél/ n daftar berisi ikhtisar sejumlah (besar) data informasi, biasanya berupa kata-kata dan bilangan yang tersusun secara bersistem, urut ke bawah dalam lajur dan deret tertentu dengan garis pembatas sehingga dapat dengan mudah disimak;
+         -->
+      <table border="1" cellspacing="0" cellpadding="10">
+        <!-- 
+                    <thead>: Elemen Kepala Tabel
+            Elemen HTML <thead> mendefinisikan satu set baris yang mendefinisikan kepala kolom tabel.
+             -->
+        <thead>
+          <!-- elemen HTML <tr> mendefinisikan deretan sel dalam tabel. Sel-sel baris kemudian dapat dibuat dengan menggunakan campuran elemen <td> (sel data) dan <th> (sel header). -->
+          <tr>
+            <!-- <th>: Elemen Header Tabel
+                Elemen HTML <th> mendefinisikan sel sebagai header dari sekelompok sel tabel. Sifat yang tepat dari grup ini ditentukan oleh atribut cakupan dan header. -->
+            <th>nama depan</th>
+            <th>nama belakang</th>
+            <th>nama lengkap</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!-- <td>: Elemen Sel Data Tabel
+            Elemen HTML <td> mendefinisikan sel tabel yang berisi data. Elemen ini berpartisipasi dalam model tabel.
+             -->
+            <td>Muhamad</td>
+            <td>Yusup Fajarudin</td>
+            <td>Muhamad Yusup Fajarudin</td>
+          </tr>
+          <tr>
+            <!-- Untuk membuat rentang sel di beberapa kolom, gunakan atribut colspan.Untuk membuat rentang sel di beberapa kolom, gunakan atribut colspan. -->
+
+            <!-- Untuk membuat rentang sel pada beberapa baris, gunakan atribut rowspan. -->
+            <th scope="row" colspan="2">Jumlah Data</th>
+            <td><center>1</center></td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Daftar Jumlah Penduduk Terbanyak</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Country</th>
+            <th>Capital</th>
+            <th>Population</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>China</td>
+          <td>Beijing</td>
+          <td>1,412,600,000</td>
+        </tr>
+        <tr>
+          <td>India</td>
+          <td>New Delhi</td>
+          <td>1,373,761,000</td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
