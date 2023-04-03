@@ -29,40 +29,59 @@
             input type: text
             Nilai default. Bidang teks satu baris. Jeda baris secara otomatis dihapus dari nilai input
          -->
+      <h1>Formulir Isian</h1>
+      <!-- 
+        The <label> HTML element represents a caption for an item in a user interface.
+       -->
       <p>
-        Text
-        <input type="text" name="username" id="username" />
+        <label for="username">Nama lengkap</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Nama Lengkap"
+        />
       </p>
       <!-- input type: password
         A single-line text field whose value is obscured. Will alert user if site is not secure.
     -->
       <p>
-        Password
-        <input type="password" name="password" id="password" />
+        <label for="passowrd">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
       </p>
       <!-- 
         input type: email
         Bidang untuk mengedit alamat email. Terlihat seperti input teks, tetapi memiliki parameter validasi dan papan ketik yang relevan di browser yang mendukung dan perangkat dengan papan ketik dinamis.
        -->
       <p>
-        Email
-        <input type="email" name="email" id="email" />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email, contoh: yusuf@gmail.com"
+        />
       </p>
       <!--
         input type: number
           A control for entering a number. Displays a spinner and adds default validation. Displays a numeric keypad in some devices with dynamic keypads. 	
           password 	
-        -->
+          -->
       <p>
-        Number
-        <input type="number" name="telp" id="telp" />
+        <label for="telp">Umur</label>
+        <input type="number" name="umur" id="umur" placeholder="Umur" />
       </p>
       <!-- 
         input type : date
         A control for entering a date (year, month, and day, with no time). Opens a date picker or numeric wheels for year, month, day when active in supporting browsers. 
        -->
       <p>
-        date
+        <label for="date">Tanggal</label>
         <input type="date" name="date" id="date" />
       </p>
       <!--
@@ -71,7 +90,6 @@
         A control for entering a date and time, with no time zone. Opens a date picker or numeric wheels for date- and time-components when active in supporting browsers.  
         -->
       <p>
-        datetime-local
         <input
           type="datetime-local"
           name="datetime-local"
@@ -91,6 +109,7 @@
         A control that lets the user select a file. Use the accept attribute to define the types of files that the control can select. 
        -->
       <p>
+        <label for="file-image">Upload Gambar</label>
         <input type="file" name="file-image" id="file-image" />
       </p>
     </form>
