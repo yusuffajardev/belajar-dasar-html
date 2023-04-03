@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <!-- 
+        <form>: Elemen Formulir
+    Elemen HTML <form> mewakili bagian dokumen yang berisi kontrol interaktif untuk mengirimkan informasi.
+     -->
+    <!-- 
+        [formulir] Arti formulir di KBBI adalah: lembar isian;
+      -->
+    <form action="" method="">
+      <!-- action : kemana data di kirim -->
+      <!-- method : HTTP method yang di gunakan -->
+      <!-- 
+        Elemen HTML <input> digunakan untuk membuat kontrol interaktif untuk formulir berbasis web agar dapat menerima data dari pengguna; berbagai jenis data input dan widget kontrol tersedia, tergantung pada perangkat dan agen pengguna. Elemen <input> adalah salah satu yang paling kuat dan kompleks di semua HTML karena banyaknya kombinasi tipe input dan atribut.
+       -->
+      <!-- 
+        jenis <input>
+        Cara kerja <input> sangat bervariasi tergantung pada nilai atribut tipenya, oleh karena itu tipe yang berbeda tercakup dalam halaman referensi terpisah mereka sendiri
+        -->
+      <!--  -->
+      <!-- 
+            input type: text
+            Nilai default. Bidang teks satu baris. Jeda baris secara otomatis dihapus dari nilai input
+         -->
+      <p>
+        Text
+        <input type="text" name="username" id="username" />
+      </p>
+      <!-- input type: password
+        A single-line text field whose value is obscured. Will alert user if site is not secure.
+    -->
+      <p>
+        Password
+        <input type="password" name="password" id="password" />
+      </p>
+      <!-- 
+        input type: email
+        Bidang untuk mengedit alamat email. Terlihat seperti input teks, tetapi memiliki parameter validasi dan papan ketik yang relevan di browser yang mendukung dan perangkat dengan papan ketik dinamis.
+       -->
+      <p>
+        Email
+        <input type="email" name="email" id="email" />
+      </p>
+      <!--
+        input type: number
+          A control for entering a number. Displays a spinner and adds default validation. Displays a numeric keypad in some devices with dynamic keypads. 	
+          password 	
+        -->
+      <p>
+        Number
+        <input type="number" name="telp" id="telp" />
+      </p>
+      <!-- 
+        input type : date
+        A control for entering a date (year, month, and day, with no time). Opens a date picker or numeric wheels for year, month, day when active in supporting browsers. 
+       -->
+      <p>
+        date
+        <input type="date" name="date" id="date" />
+      </p>
+      <!--
+        input type: date-time        
+
+        A control for entering a date and time, with no time zone. Opens a date picker or numeric wheels for date- and time-components when active in supporting browsers.  
+        -->
+      <p>
+        datetime-local
+        <input
+          type="datetime-local"
+          name="datetime-local"
+          id="datetime-local"
+        />
+      </p>
+      <!--
+        input type: datetime 
+        A control for entering a date and time (hour, minute, second, and fraction of a second) based on UTC time zone. 	
+       -->
+      <p>
+        datetime
+        <input type="datetime" name="datetime" id="datetime" />
+      </p>
+      <!-- 
+        input type: file
+        A control that lets the user select a file. Use the accept attribute to define the types of files that the control can select. 
+       -->
+      <p>
+        <input type="file" name="file-image" id="file-image" />
+      </p>
+    </form>
+  </body>
+</html>
