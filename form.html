@@ -144,24 +144,88 @@
       </table>
     </form>
     <hr />
-    <form action="/api/post">
+    <form action="/api/post" method="get">
       <!-- 
         radio/ra·dio/ n 1 siaran (pengiriman) suara atau bunyi
         <input type="radio">
   <input> elements of type radio are generally used in radio groups—collections of radio buttons describing a set of related options.
   Only one radio button in a given group can be selected at the same time. Radio buttons are typically rendered as small circles, which are filled or highlighted when selected.
        -->
-      <label for="jenis-kelamin">Jenis Kelamin</label>
-      <!-- 
-        value -> Nilai awal kontrol
-        -->
-      <input type="radio" name="gender" id="jenis-kelamin" value="L" /><label
-        for="jenis-kelamin"
-        >Laki - Laki</label
-      >
-      <input type="radio" name="gender" id="jenis-kelamin" value="P" />
-      <label for="jenis-kelamin">Perempuan</label>
-      <button type="submit">Kirim</button>
+      <div>
+        <label for="jenis-kelamin">Jenis Kelamin</label>
+        <!-- 
+         value -> Nilai awal kontrol
+         -->
+        <input type="radio" name="gender" id="jenis-kelamin" value="L" /><label
+          for="jenis-kelamin"
+          >Laki - Laki</label
+        >
+        <input type="radio" name="gender" id="jenis-kelamin" value="P" />
+        <label for="jenis-kelamin">Perempuan</label>
+      </div>
+      <div>
+        <label for="Jurusan">Silahkan Pilih Jurusan</label>
+        <div>
+          <!-- 
+            Elemen HTML <select> mewakili kontrol yang menyediakan menu pilihan.
+           -->
+          <select name="jurusan" id="Jurusan">
+            <option disabled>-- Pilih Jurusan --</option>
+            <option value="TKJ">TKJ</option>
+            <option value="AK">Akuntansi Keuangan</option>
+            <option value="AP">Administrasi Perkantoran</option>
+          </select>
+        </div>
+      </div>
+      <div>
+        <!-- 
+              <input> elements of type checkbox are rendered by default as boxes that are checked (ticked) when activated, like you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally this is a square but it may have rounded corners. A checkbox allows you to select single values for submission in a form (or not).
+             -->
+        <h3>Cek Perbekalan</h3>
+        <input
+          type="checkbox"
+          name="makanan"
+          id="makanan"
+          value="makanan"
+        /><label for="makanan">Makanan</label>
+        <input type="checkbox" name="minuman" id="minuman" value="minuman" />
+        <label for="minuman">Minuman</label>
+        <input type="checkbox" name="pakaian" id="pakaian" value="pakaian" />
+        <label for="minuman">Pakaian</label>
+      </div>
+      <div>
+        <p><label for="catatan">Catatan</label></p>
+        <textarea
+          name="notes"
+          id="catatan"
+          cols="60"
+          rows="10"
+          placeholder="Masukan Catatan (Optional)"
+        >
+        </textarea>
+      </div>
+      <div>
+        <button type="submit">Kirim</button>
+      </div>
+    </form>
+    <hr />
+    <form action="/api/get" method="get">
+      <div>
+        <!-- input validation -->
+        <label for="no_reg"> Masukan No registrasi </label>
+        <input
+          type="text"
+          name="no_reg"
+          id="no_reg"
+          required
+          minlength="1"
+          maxlength="16"
+          placeholder="16 Digit"
+        />
+      </div>
+      <div>
+        <button type="submit">Cari</button>
+      </div>
     </form>
   </body>
 </html>
